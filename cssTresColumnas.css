@@ -8,9 +8,11 @@ html{
 }
 
 body div header label {
+    margin-top: 5px;
     padding: 1em;
     
 }
+
 body{
 	
 	width: 96%;
@@ -18,17 +20,7 @@ body{
 	background-color: #FFFFF6;	
 }
 
-.conCentral{
-	width: 1300px;
-	margin: auto;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	
-	color: blue;
-	font-family: Arial;
-	font-size: 0.9em;
-	line-height: 1.4em;
-}
+
 
 header{
 	height: 140px;
@@ -37,8 +29,6 @@ header{
 header h1{
 	padding: 1em;
 	font-size: 40px;
-	
-	
 }
 
 header img{
@@ -51,8 +41,11 @@ header form{
 	float: right;
 }
 
+
+
+
 nav{
-	padding:1em;
+	padding:0.5em;
 	height: 60%;
 	border-bottom: 2.5px solid #004C99;
 	background-color: #0099FF;
@@ -91,27 +84,28 @@ nav a{
 
 
 
+
+#central{
+	width: 770px;
+	float: left;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
 #central article h2{
 	color: #CC6600;
 	font-size: 1.6em;
 	line-height: 1.2 em;
-	margin: 0.5px;
-	
-    
-    
-	
+	margin-bottom: 0.3em;	
 }
-
 #central article a{
 	color: #CC6600;
 }
-
-
 #central article p{
 	margin-top: 0.3em;
 	margin-bottom: 0.3em;
 }
-
 #central article img{
 	margin-right: 1em;
 	float: left;
@@ -120,25 +114,46 @@ nav a{
 
 
 
+
+
 #col2{
-    margin-right: 2px;
-	padding: 0.5em;
-	width: 240px;
-	background-color: #F8F8F8;
+	padding: 0.2em;
+	width: 220px;
+	float: left;
 	margin-top: 10px;
-   
-	float: right;
-	border: 1px solid #C5C5C5;
+	border: 1px solid #CC6600;
 	
 }
 
 #col2 h3{
-	color: #003366;
+	background-color: #DB905C;
+	color: white;
+	
 }
 
-#col2 p{
-	color: #999;
+
+
+
+#publicidad{
+	width: 240px;
+	background-color: #FFF6CD;
+	margin-top: 10px;
+	border: 1px dashed #CC6600;
+	clear: left;
+	float: left;
+	margin-bottom: 10px;
+	
 }
+#publicidad h3 a{
+	color: #CC6600;
+	
+}
+	
+#publicidad h3 {
+	color: #555;
+}
+
+
 
 
 footer{
