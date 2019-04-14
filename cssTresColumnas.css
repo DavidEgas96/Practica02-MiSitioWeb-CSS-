@@ -23,7 +23,7 @@ body{
 
 
 header{
-	height: 140px;
+	height: 144px;
 	
 }
 header h1{
@@ -45,42 +45,43 @@ header form{
 
 
 nav{
-	padding:0.5em;
-	height: 60%;
+
+    background-color:lightgreen;
+	padding:5px;
+	height: 65%;
 	border-bottom: 2.5px solid #004C99;
-	background-color: #0099FF;
+	
     margin-right: 5px;
 }
 
 nav a{
-	margin-right: 1em;
+	margin-right: 0 em;
 	font-size: 1.3em;
-	color: white;
+	
     	
 }
 
 
 
 #col1{
-    margin-left: 2px;
-	padding: 0.5em;
+	padding: 5px;
 	width: 240px;
-	background-color: #F8F8F8;
-	margin-top: 10px;
+    float: left;
    
-	float: left;
-	border: 1px solid #C5C5C5;
+    margin-top: 10px;
+    margin-left: 15px;
+    border: 1px solid yellow;
+    -moz-border-radius: 9px;
+    -webkit-border-radius:9px;
+    background:rosybrown;
 	
 }
 
 #col1 h3{
-	color: #003366;
+	background-color: #DB905C;
+	color: white;
+	
 }
-
-#col1 p{
-	color: #999;
-}
-
 
 
 
@@ -137,7 +138,8 @@ nav a{
 #publicidad{
 	width: 240px;
 	background-color: #FFF6CD;
-	margin-top: 10px;
+    margin-top: 10px;
+    margin-left: 18px;
 	border: 1px dashed #CC6600;
 	clear: left;
 	float: left;
