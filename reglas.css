@@ -1,26 +1,47 @@
 h1{
    
     color: aqua;
+    font-size: 50px;
+    font-style: italic;
+    text-decoration: underline chocolate;
 }
 h2{
    
     color: blueviolet;
+    font-size: 30px;
+    font-style: oblique;
+    text-decoration: overline red;
+    
 }
 h3{
    
     color:blue;
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: blink green;
+    
+   
 }
 h4{
    
     color:green;
+    font-size: 15px;
+    font-style: initial;
+    text-decoration: line-through black;
 }
 h5{
    
     color:brown;
+    font-size: 10px;
+    font-style: initial;
+    text-decoration: line-through forestgreen;
 }
 h6{
     
     color: yellow;
+    font-size: 5px;
+    font-style: italic;
+    text-decoration: underline overline olive;
 }
 
 p{
@@ -65,10 +86,7 @@ header{
 	height: 144px;
 	
 }
-header h1{
-	padding: 1em;
-	font-size: 40px;
-}
+
 
 header img{
 	margin-left: 30px;
@@ -93,12 +111,6 @@ nav{
     margin-right: 5px;
 }
 
-nav a{
-	margin-right: 0 em;
-	font-size: 1.3em;
-	
-    	
-}
 
 
 
@@ -115,11 +127,6 @@ nav a{
 	
 }
 
-#col1 h3{
-	background-color: #DB905C;
-	color: white;
-	
-}
 
 
 #volver{
@@ -128,15 +135,11 @@ nav a{
 	float: left;
     margin-top: 10px;
     margin-left: 15px;
-	border: 1px solid #CC6600;
+
 	
 }
 
-#volver h3{
-	background-color: #DB905C;
-	color: white;
-	
-}
+
 
 
 
@@ -202,7 +205,7 @@ nav a{
 #publicidad{
 	width: 240px;
 	background-color: #FFF6CD;
-    margin-top: 10px;
+    margin-top: 720px;
     margin-left: 18px;
 	border: 1px dashed #CC6600;
 	clear: left;
@@ -240,3 +243,34 @@ footer p{
     text-align: center;
 	font-style: italic;
 }
+
+
+
+
+
+table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    margin: 0 0 1em 0;
+    caption-side: top;
+ }
+ caption, td, th {
+    padding: 0.3em;
+ }
+ th, td {
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    border-left:1px #000;
+    border-top:1px #000;
+ }
+ th.last, td.last {
+    border-right: 0;
+ }
+ tfoot th, tfoot td {
+    border-bottom: 0;
+    text-align: center;
+ }
+ th {
+    width: 25%;
+ }
