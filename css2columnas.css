@@ -42,6 +42,32 @@ header form{
 }
 
 
+.central2{
+	width: 770px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.central2 article h2{
+	color: #CC6600;
+	font-size: 1.6em;
+	line-height: 1.2 em;
+	margin-bottom: 0.3em;	
+}
+.central2 article a{
+	color: #CC6600;
+}
+.central2 article p{
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+}
+.central2 article img{
+	margin-right: 1em;
+	float: left;
+}
+
 
 
 nav{
@@ -159,3 +185,11 @@ footer p{
 	font-style: italic;
 }
 
+
+ul {
+	list-style-type: decimal;
+  }
+  
+  ol {
+	 list-style-type: disc;
+  }

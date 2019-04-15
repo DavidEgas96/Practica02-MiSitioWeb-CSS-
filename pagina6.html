@@ -3,39 +3,39 @@
 <head>
     <meta charset="utf-8">
     <title>"Consolas de Videojuegos"</title>
-    
-
+    <link href="css2columnas.css" rel="stylesheet">
 
 
 </head>
 
 <body>
         
-            <header>
-    <img src="imagen/JuegoLogo.jpg" alt="Logotipo" width="270" height="140">
-    <h1>JuegoTeca, Noticias y minijuegos</h1>
-    <form>
-	<label for="buscar">Buscar</label>
-	<input type="search" id="texto">
-	</form>
-            </header>
+        <header>
+                <form>
+                        <label for="buscar">Buscar</label>
+                        <input type="search" id="texto">
+                        </form>
+        <img src="imagen/JuegoLogo.jpg" alt="Logotipo" width="270" height="140">
+        <h1>JuegoTeca, Noticias y minijuegos</h1>
+        
+        </form>
+        </header>
     
     
                 <nav>
     
      <a href="https://www.callofduty.com/mobile"target="_blank">Conoce todo sobre Call of Duty Mobile</a>
-	 <p>11/10/2018</p>
+	
     
-    <p>
+   
 	<a href="https://esports.as.com/playerunknown-s-battlegrounds/PUBG-millones-tramposos_0_1179782012.html"target="_blank">PUBG banea 13 millones de cuentas.</a>
-	</p>
-	<p>08/10/2018</p>
+	
             </nav>
     
     <a>&nbsp;</a>
     <a>&nbsp;</a>
     
-            <nav>
+            <aside id="col1">
     
     <a href="pagina2.html">Tops de juegos</a>
     <br />
@@ -50,10 +50,10 @@
                 
 
                 
-            </nav>
+            </aside>
     
 
-            <section >
+            <section id="central" >
         <article>
         <h2>Recomendados para ti</h2>
 	  <img src="imagen/racon.jpg" width="600" height="200">
@@ -109,43 +109,41 @@
                     </ul>
             </ol>
 
-           
-              
-                
-    
-               <aside >
-    <h3>Eventos para el mes de Octubre </h3>
-	 <p>
-	 <a href="http://evo.shoryuken.com/"target="_blank">Evento de e-sports de lucha.</a>
-	 </p>
-     <p>
-	 <a href="https://blizzcon.com/es-es/" target="_blank">Evento realizado por Blizzard</a>
-	 </p>
-     <p>
-	 <a href="http://www.gstar.or.kr/eng/index.asp"target="_blank">Evento Koreano de bandas sonoras</a>
-	 </p>	 
-         </aside>
+           <br />
+           <br />
+           <br />
+           <br />
+            <article>
+                    <h2>Forme parte de nuestra familia, inscribase</h2>
+                    <form id="formulario" name ="formulario " method="get">
+                            <p>Nombres: <input type="text" name="nombres" placeholder="Escriba su nombre" size="50"></p>
+                            <p>Apellidos:<input type="text" apellido="apellidos" size="50"></p>
+                            <p>Cedula: <input type="text" cedulaIden="cedula" size="12"></p>
+                              <p>Género:
+                              <input type="radio" name="hm" value="h"> Hombre
+                              <input type="radio" name="hm" value="m"> Mujer
+                            </p>
+                            <p>Telefono: <input type="tel" telef="telefono" size="12"></p>
+                              <label>Correo:</label>
+                              <input type="texto" id="correo" value="" onblur="validarCorreo();" required >*&nbsp; &nbsp;<label id="salida"></label><br>
+                              <input type="submit" carg="cargar"  size="12">
+                             
+                              
+                              
+                          </form>
+            </article>
             
             </section>
     
     
     
-    <section>
+  
     
-        <aside>
-        
-             <!-- Uso de 5 etiquetas de la figura 1 16 del libro-->
-    <p><small>Al usar este sitio, estás de acuerdo con nuestros "Términos de uso" y nuestra "Política de privacidad".</small></p>
-    <p>La fórmula química de agua: H<sub>2</sub>O</p>
-    <p>La función genera una variable llamada <var>temp</var> y la utiliza para intercambiar los valores de los parámetros <var>param1</var> y <var>param2</var>.</p>
-    <p><em>¡Hoy es un día lluvioso!</em></p>
-    <p>Deberías declarar la función así: <code>function cambiarColor(elemento, evento) { ... }</code>, donde el contenido de la función es representado por los puntos suspensivos.</p>
-            
-        </aside>
+    
     
         
         
-    </section>
+    +
     
                 
   
